@@ -1,0 +1,99 @@
+// Place all the styles related to the Simples controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#header{
+  display: flex;
+  align-items: center;
+  background-image: image-url("Easy/background.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  height: 600px;
+}
+
+#header p {
+  font-size: 50px;
+  margin: 0px auto;
+  text-shadow: 0px 2px #000000;
+}
+
+.pricingDiv {
+  margin-top: 20px;
+}
+
+#pricing {
+  text-align: center;
+}
+
+#black {
+  background-color: #000000;
+  text-align: center;
+  color: #ffffff;
+  padding:10px;
+}
+
+#blue {
+  background-color: blue;
+  text-align: center;
+  color: #ffffff;
+  padding:10px;
+}
+
+#green {
+  background-color: green;
+  text-align: center;
+  color: #ffffff;
+  padding:10px;
+}
+
+#clear {
+  background-color: #ffffff;
+  color: #000000;
+  border: solid lightgrey;
+  padding: 10px;
+  text-align: center;
+}
+
+.plan {
+  color: #ffffff;
+  font-size: 22px;
+}
+.price {
+  color: #ffffff;
+  font-size: 100px;
+}
+.paymentPeriod {
+  color: lightgrey;
+  font-size: 22px;
+}
+
+#choose {
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+footer {
+  color:grey;
+  background-color: black;
+  text-align: center;
+  padding: 30px;
+}
+
+footer a {
+  color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: grey;
+  padding: 10px;
+}

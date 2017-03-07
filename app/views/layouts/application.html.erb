@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mockup</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <nav class="clearfix">
+      <a href="#" id="logo">LOGO</a>
+      <a href="#">Home</a>
+      <a href="#">Pricing</a>
+      <a href="#">Contact</a>
+    </nav>
+    <%= yield %>
+    <footer>
+      <a href="#">Try now</a> for 14 days. No credit card required. Header image courtsey of <a href="https://unsplash.com/">Unsplash</a>.
+    </footer>
+  </body>
+</html>
