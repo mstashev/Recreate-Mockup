@@ -1215,3 +1215,10 @@ Processing by SimplesController#index as HTML
 Completed 200 OK in 236ms (Views: 235.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/simples/index" for ::1 at 2017-03-07 20:21:08 -0500
+Processing by SimplesController#index as HTML
+  Rendering simples/index.html.erb within layouts/application
+  Rendered simples/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 896ms (Views: 859.9ms | ActiveRecord: 0.0ms)
+
+
